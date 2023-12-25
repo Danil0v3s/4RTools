@@ -23,7 +23,6 @@ namespace _4RTools.Forms
         }
 
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -43,6 +42,7 @@ namespace _4RTools.Forms
             this.tabMacroSwitch = new System.Windows.Forms.TabPage();
             this.tabPageProfiles = new System.Windows.Forms.TabPage();
             this.tabPageServer = new System.Windows.Forms.TabPage();
+            this.tabDaniloves = new System.Windows.Forms.TabPage();
             this.lblLinkDiscord = new System.Windows.Forms.LinkLabel();
             this.lblLinkGithub = new System.Windows.Forms.LinkLabel();
             this.panelDiscImage = new System.Windows.Forms.Panel();
@@ -126,6 +126,7 @@ namespace _4RTools.Forms
             this.atkDefMode.Controls.Add(this.tabMacroSwitch);
             this.atkDefMode.Controls.Add(this.tabPageProfiles);
             this.atkDefMode.Controls.Add(this.tabPageServer);
+            this.atkDefMode.Controls.Add(this.tabDaniloves);
             this.atkDefMode.Location = new System.Drawing.Point(15, 274);
             this.atkDefMode.Name = "atkDefMode";
             this.atkDefMode.SelectedIndex = 0;
@@ -191,6 +192,16 @@ namespace _4RTools.Forms
             this.tabPageServer.TabIndex = 9;
             this.tabPageServer.Text = "Servers";
             this.tabPageServer.UseVisualStyleBackColor = true;
+            // 
+            // tabDaniloves
+            // 
+            this.tabDaniloves.Location = new System.Drawing.Point(4, 22);
+            this.tabDaniloves.Name = "tabDaniloves";
+            this.tabDaniloves.Padding = new System.Windows.Forms.Padding(3);
+            this.tabDaniloves.Size = new System.Drawing.Size(563, 274);
+            this.tabDaniloves.TabIndex = 10;
+            this.tabDaniloves.Text = "Daniloves";
+            this.tabDaniloves.UseVisualStyleBackColor = true;
             // 
             // lblLinkDiscord
             // 
@@ -412,9 +423,8 @@ namespace _4RTools.Forms
             this.tabControlAutopot.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
+        private System.Windows.Forms.TabPage tabDaniloves;
         #endregion
 
         private System.Windows.Forms.Label lblProcessName;

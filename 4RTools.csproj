@@ -251,6 +251,12 @@
     <Compile Include="Forms\ClientUpdaterForm.Designer.cs">
       <DependentUpon>ClientUpdaterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\DanilovesMacroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DanilovesMacroForm.Designer.cs">
+      <DependentUpon>DanilovesMacroForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MacroSongForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -320,6 +326,7 @@
     <Compile Include="Model\Buff.cs" />
     <Compile Include="Model\BuffContainer.cs" />
     <Compile Include="Model\BuffRenderer.cs" />
+    <Compile Include="Model\DanilovesMacro.cs" />
     <Compile Include="Model\LocalServerManager.cs" />
     <Compile Include="Model\StatusRecovery.cs" />
     <Compile Include="Model\Tracker.cs" />
@@ -377,6 +384,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ClientUpdaterForm.resx">
       <DependentUpon>ClientUpdaterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DanilovesMacroForm.resx">
+      <DependentUpon>DanilovesMacroForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MacroSongForm.resx">
       <DependentUpon>MacroSongForm.cs</DependentUpon>

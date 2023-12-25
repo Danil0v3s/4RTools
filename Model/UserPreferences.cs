@@ -7,6 +7,7 @@ namespace _4RTools.Model
     {
         private string ACTION_NAME = "UserPreferences";
         public string toggleStateKey { get; set; } = Keys.End.ToString();
+        public string toggleDanilovesKey { get; set; } = Keys.Home.ToString();
 
         public UserPreferences()
         {

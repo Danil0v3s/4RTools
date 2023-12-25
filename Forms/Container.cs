@@ -37,6 +37,7 @@ namespace _4RTools.Forms
             SetSongMacroWindow();
             SetATKDEFWindow();
             SetMacroSwitchWindow();
+            SetDanilovesWindow();
             SetServerWindow();
             SetAdvertisementWindow();
 
@@ -321,6 +322,16 @@ namespace _4RTools.Forms
             frm.Location = new Point(0, 65);
             frm.MdiParent = this;
             addform(this.tabMacroSwitch, frm);
+            frm.Show();
+        }
+        
+        public void SetDanilovesWindow()
+        {
+            DanilovesMacroForm frm = new DanilovesMacroForm(subject);
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Location = new Point(0, 65);
+            frm.MdiParent = this;
+            addform(this.tabDaniloves, frm);
             frm.Show();
         }
 
