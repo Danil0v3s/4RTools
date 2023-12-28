@@ -49,11 +49,6 @@
         private bool ToggleStatus()
         {
             bool isOn = this.btnStatusToggle.Text == "ON";
-            if (!_isHotkeysRunning)
-            {
-                ProfileSingleton.GetCurrent().DanilovesSwitch.Stop();
-                return true;
-            }
             if (isOn)
             {
                 this.btnStatusToggle.BackColor = Color.Red;
@@ -86,6 +81,9 @@
                     _isHotkeysRunning = true;
                     break;
                 case MessageCode.TURN_OFF:
+                    this.btnStatusToggle.BackColor = Color.Red;
+                    this.btnStatusToggle.Text = "OFF";
+                    ProfileSingleton.GetCurrent().DanilovesSwitch.Stop();
                     _isHotkeysRunning = false;
                     break;
             }

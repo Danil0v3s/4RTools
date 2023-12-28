@@ -31,6 +31,7 @@ namespace _4RTools.Model
                     profile.SongMacro = JsonConvert.DeserializeObject<Macro>(Profile.GetByAction(rawObject, profile.SongMacro));
                     profile.AtkDefMode = JsonConvert.DeserializeObject<ATKDEFMode>(Profile.GetByAction(rawObject, profile.AtkDefMode));
                     profile.MacroSwitch = JsonConvert.DeserializeObject<Macro>(Profile.GetByAction(rawObject, profile.MacroSwitch));
+                    profile.DanilovesSwitch = JsonConvert.DeserializeObject<DanilovesMacro>(Profile.GetByAction(rawObject, profile.DanilovesSwitch));
                 }
             }
             catch
