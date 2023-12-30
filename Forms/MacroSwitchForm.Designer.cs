@@ -21,7 +21,6 @@
         }
 
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -205,7 +204,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox3.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox3.Location = new System.Drawing.Point(112, 38);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(21, 41);
@@ -239,11 +238,13 @@
             // in1mac1delay
             // 
             this.in1mac1delay.Location = new System.Drawing.Point(65, 68);
-            this.in1mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in1mac1delay.Maximum = new decimal(new int[]
+            {
+                2000,
+                0,
+                0,
+                0
+            });
             this.in1mac1delay.Name = "in1mac1delay";
             this.in1mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in1mac1delay.TabIndex = 254;
@@ -251,18 +252,20 @@
             // in2mac1delay
             // 
             this.in2mac1delay.Location = new System.Drawing.Point(134, 68);
-            this.in2mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in2mac1delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in2mac1delay.Name = "in2mac1delay";
             this.in2mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in2mac1delay.TabIndex = 260;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox4.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox4.Location = new System.Drawing.Point(181, 38);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(21, 41);
@@ -290,18 +293,20 @@
             // in4mac1delay
             // 
             this.in4mac1delay.Location = new System.Drawing.Point(272, 68);
-            this.in4mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in4mac1delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in4mac1delay.Name = "in4mac1delay";
             this.in4mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in4mac1delay.TabIndex = 268;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox6.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox6.Location = new System.Drawing.Point(319, 38);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(21, 41);
@@ -329,18 +334,20 @@
             // in3mac1delay
             // 
             this.in3mac1delay.Location = new System.Drawing.Point(203, 68);
-            this.in3mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in3mac1delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in3mac1delay.Name = "in3mac1delay";
             this.in3mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in3mac1delay.TabIndex = 264;
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox8.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox8.Location = new System.Drawing.Point(250, 38);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(21, 41);
@@ -368,11 +375,13 @@
             // in7mac1delay
             // 
             this.in7mac1delay.Location = new System.Drawing.Point(479, 68);
-            this.in7mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in7mac1delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in7mac1delay.Name = "in7mac1delay";
             this.in7mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in7mac1delay.TabIndex = 280;
@@ -397,18 +406,20 @@
             // in6mac1delay
             // 
             this.in6mac1delay.Location = new System.Drawing.Point(410, 68);
-            this.in6mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in6mac1delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in6mac1delay.Name = "in6mac1delay";
             this.in6mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in6mac1delay.TabIndex = 276;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox12.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox12.Location = new System.Drawing.Point(457, 38);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(21, 41);
@@ -436,18 +447,20 @@
             // in5mac1delay
             // 
             this.in5mac1delay.Location = new System.Drawing.Point(341, 68);
-            this.in5mac1delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in5mac1delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in5mac1delay.Name = "in5mac1delay";
             this.in5mac1delay.Size = new System.Drawing.Size(47, 20);
             this.in5mac1delay.TabIndex = 272;
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox14.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox14.Location = new System.Drawing.Point(388, 38);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(21, 41);
@@ -600,11 +613,13 @@
             // in7mac2delay
             // 
             this.in7mac2delay.Location = new System.Drawing.Point(479, 68);
-            this.in7mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in7mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in7mac2delay.Name = "in7mac2delay";
             this.in7mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in7mac2delay.TabIndex = 280;
@@ -632,11 +647,13 @@
             // in6mac2delay
             // 
             this.in6mac2delay.Location = new System.Drawing.Point(410, 68);
-            this.in6mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in6mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in6mac2delay.Name = "in6mac2delay";
             this.in6mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in6mac2delay.TabIndex = 276;
@@ -672,11 +689,13 @@
             // in1mac2delay
             // 
             this.in1mac2delay.Location = new System.Drawing.Point(65, 68);
-            this.in1mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in1mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in1mac2delay.Name = "in1mac2delay";
             this.in1mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in1mac2delay.TabIndex = 254;
@@ -684,11 +703,13 @@
             // in5mac2delay
             // 
             this.in5mac2delay.Location = new System.Drawing.Point(341, 68);
-            this.in5mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in5mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in5mac2delay.Name = "in5mac2delay";
             this.in5mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in5mac2delay.TabIndex = 272;
@@ -716,11 +737,13 @@
             // in2mac2delay
             // 
             this.in2mac2delay.Location = new System.Drawing.Point(134, 68);
-            this.in2mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in2mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in2mac2delay.Name = "in2mac2delay";
             this.in2mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in2mac2delay.TabIndex = 260;
@@ -728,11 +751,13 @@
             // in4mac2delay
             // 
             this.in4mac2delay.Location = new System.Drawing.Point(272, 68);
-            this.in4mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in4mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in4mac2delay.Name = "in4mac2delay";
             this.in4mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in4mac2delay.TabIndex = 268;
@@ -760,18 +785,20 @@
             // in3mac2delay
             // 
             this.in3mac2delay.Location = new System.Drawing.Point(203, 68);
-            this.in3mac2delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in3mac2delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in3mac2delay.Name = "in3mac2delay";
             this.in3mac2delay.Size = new System.Drawing.Size(47, 20);
             this.in3mac2delay.TabIndex = 264;
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox21.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox21.Location = new System.Drawing.Point(112, 38);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(21, 41);
@@ -781,7 +808,7 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox22.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox22.Location = new System.Drawing.Point(181, 38);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(21, 41);
@@ -791,7 +818,7 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox23.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox23.Location = new System.Drawing.Point(250, 38);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(21, 41);
@@ -801,7 +828,7 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox24.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox24.Location = new System.Drawing.Point(319, 38);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(21, 41);
@@ -811,7 +838,7 @@
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox25.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox25.Location = new System.Drawing.Point(388, 38);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(21, 41);
@@ -821,7 +848,7 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox26.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox26.Location = new System.Drawing.Point(457, 38);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(21, 41);
@@ -919,11 +946,13 @@
             // in7mac3delay
             // 
             this.in7mac3delay.Location = new System.Drawing.Point(479, 68);
-            this.in7mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in7mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in7mac3delay.Name = "in7mac3delay";
             this.in7mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in7mac3delay.TabIndex = 280;
@@ -951,11 +980,13 @@
             // in6mac3delay
             // 
             this.in6mac3delay.Location = new System.Drawing.Point(410, 68);
-            this.in6mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in6mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in6mac3delay.Name = "in6mac3delay";
             this.in6mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in6mac3delay.TabIndex = 276;
@@ -991,11 +1022,13 @@
             // in1mac3delay
             // 
             this.in1mac3delay.Location = new System.Drawing.Point(65, 68);
-            this.in1mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in1mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in1mac3delay.Name = "in1mac3delay";
             this.in1mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in1mac3delay.TabIndex = 254;
@@ -1003,11 +1036,13 @@
             // in5mac3delay
             // 
             this.in5mac3delay.Location = new System.Drawing.Point(341, 68);
-            this.in5mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in5mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in5mac3delay.Name = "in5mac3delay";
             this.in5mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in5mac3delay.TabIndex = 272;
@@ -1035,11 +1070,13 @@
             // in2mac3delay
             // 
             this.in2mac3delay.Location = new System.Drawing.Point(134, 68);
-            this.in2mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in2mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in2mac3delay.Name = "in2mac3delay";
             this.in2mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in2mac3delay.TabIndex = 260;
@@ -1047,11 +1084,13 @@
             // in4mac3delay
             // 
             this.in4mac3delay.Location = new System.Drawing.Point(272, 68);
-            this.in4mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in4mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in4mac3delay.Name = "in4mac3delay";
             this.in4mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in4mac3delay.TabIndex = 268;
@@ -1079,18 +1118,20 @@
             // in3mac3delay
             // 
             this.in3mac3delay.Location = new System.Drawing.Point(203, 68);
-            this.in3mac3delay.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
+            this.in3mac3delay.Maximum = new decimal(new int[]
+            {
+                500,
+                0,
+                0,
+                0
+            });
             this.in3mac3delay.Name = "in3mac3delay";
             this.in3mac3delay.Size = new System.Drawing.Size(47, 20);
             this.in3mac3delay.TabIndex = 264;
             // 
             // pictureBox34
             // 
-            this.pictureBox34.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox34.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox34.Location = new System.Drawing.Point(112, 38);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(21, 41);
@@ -1100,7 +1141,7 @@
             // 
             // pictureBox35
             // 
-            this.pictureBox35.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox35.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox35.Location = new System.Drawing.Point(181, 38);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(21, 41);
@@ -1110,7 +1151,7 @@
             // 
             // pictureBox36
             // 
-            this.pictureBox36.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox36.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox36.Location = new System.Drawing.Point(250, 38);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(21, 41);
@@ -1120,7 +1161,7 @@
             // 
             // pictureBox37
             // 
-            this.pictureBox37.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox37.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox37.Location = new System.Drawing.Point(319, 38);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(21, 41);
@@ -1130,7 +1171,7 @@
             // 
             // pictureBox38
             // 
-            this.pictureBox38.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox38.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox38.Location = new System.Drawing.Point(388, 38);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(21, 41);
@@ -1140,7 +1181,7 @@
             // 
             // pictureBox39
             // 
-            this.pictureBox39.Image = Resources._4RTools.ETCResource.arrowup;
+            this.pictureBox39.Image = global::_4RTools.Resources._4RTools.ETCResource.arrowup;
             this.pictureBox39.Location = new System.Drawing.Point(457, 38);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(21, 41);
@@ -1228,7 +1269,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
             this.ResumeLayout(false);
-
         }
 
         #endregion

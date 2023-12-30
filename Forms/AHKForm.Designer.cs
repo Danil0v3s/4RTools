@@ -23,7 +23,6 @@ namespace _4RTools.Forms
         }
 
         #region Windows Form Designer generated code
-
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
@@ -534,6 +533,13 @@ namespace _4RTools.Forms
             // 
             this.txtSpammerDelay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.txtSpammerDelay.Location = new System.Drawing.Point(10, 29);
+            this.txtSpammerDelay.Maximum = new decimal(new int[]
+            {
+                1000,
+                0,
+                0,
+                0
+            });
             this.txtSpammerDelay.Name = "txtSpammerDelay";
             this.txtSpammerDelay.Size = new System.Drawing.Size(59, 23);
             this.txtSpammerDelay.TabIndex = 31;
@@ -648,7 +654,6 @@ namespace _4RTools.Forms
             // 
             // pbUpAndDownArrow
             // 
-            this.pbUpAndDownArrow.Image = global::_4RTools.Properties.Resources.up_and_down_arrow;
             this.pbUpAndDownArrow.Location = new System.Drawing.Point(276, 38);
             this.pbUpAndDownArrow.Name = "pbUpAndDownArrow";
             this.pbUpAndDownArrow.Size = new System.Drawing.Size(16, 16);
@@ -815,7 +820,6 @@ namespace _4RTools.Forms
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
