@@ -179,5 +179,8 @@ namespace _4RTools.Utils
 
         TELEKINESIS_INTENSE = 717,
         MYST_AMPLIFY = 113,
+        
+        EFST_CLIENT_ONLY_EQUIP_ARROW = 695,
+        EFST_WEIGHTOVER90 = 36,
     }
 }

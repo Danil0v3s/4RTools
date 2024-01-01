@@ -235,5 +235,10 @@ namespace _4RTools.Model
                 .Where(c => c.currentHPBaseAddress == dto.hpAddressPointer)
                 .Where(c => c.currentNameAddress == dto.nameAddressPointer).FirstOrDefault();
         }
+        
+        public string ReadMapName()
+        {
+            return ReadMemoryAsString(0x011CCF68);
+        }
     }
 }
